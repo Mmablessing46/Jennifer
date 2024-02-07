@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.box_1{
+    background-image: url(../Images/Homepage.png);
+    width: 1440px;
+    height: 1024px;
+    top: -513px;
+    left: -720px;
+    background-position: center;
+}
+
+.box_2{
+    background: #FFFFFF61;
+    width: 589px;
+    height: 883px;
+    border-radius: 8px;
+    margin: 80px 0 0 20px;
+}
+
+.box_3{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 80px 110px;
+    overflow-y: hidden;
+}
+
+.box_3 h3{
+    font-family: montserrat;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.paper{
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+}
+
+.mood{
+    display: inline-flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0em;
+}
+
+input{
+    background: white;
+    width: 345px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px;
+}
+
+i{
+    position: relative;
+    left: 300px;
+    bottom: 28px;
+    cursor: pointer;
+}
+
+.but{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 20px;
+    border: none;
+}
+
+.betty_1{
+    background-color: #6DA01E;
+    color: white;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    width: 345px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px;
+    border: none;
+    cursor: pointer;
+}
+
+.butty_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    color: #6DA01E;
+    font-weight: 600;
+    font-family: Poppins;
+    width: 345px;
+    height: 50px;
+    border-radius: 8px;
+    border: 2px solid #6DA01E;
+    cursor: pointer;
+}
+
+.butty_2 img{
+    height: 17px;
+    width: 17px;
+}
+
+.but p{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+.log{
+    text-decoration: none;
+    color: #6DA01E;
+    font-family: Poppins;
+    font-weight: 600;
+}
