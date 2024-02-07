@@ -7,7 +7,7 @@
     overflow-x: hidden;
 }
 
-.box_1{
+body{
     background-image: url('/images/Homepage.png');
     width: 1440px;
     height: 1024px;
