@@ -8,7 +8,7 @@
 }
 
 .box_1{
-    background-image: url(../Images/Homepage.png);
+    background-image: url('/images/Homepage.png');
     width: 1440px;
     height: 1024px;
     top: -513px;
